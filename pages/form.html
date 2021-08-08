@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Coleções da Educação</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='../css/styles.css'>
+
+    <!--MEDIA QUERIES-->
+    <link rel="stylesheet" type="text/css" href="./css/media.css">
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body id="fundo">
+    <nav class="navbar bg-primary navbar-primary" width="100%">
+                <a href="../index.html">
+                    <img src="../images/logo2.png" width="85px">
+                </a>
+    </nav>
+    <div class="container mt-4">
+        
+        <div class="row text-center">
+            <div class="col-12">
+                <div class="card bg-success text-white recado">
+                    <div class="card-body">
+                        <p>
+                            Oiiii, tudo bem? Fique a vontade para se expressar como quiser, tudo que você falar aqui não será divulgado, publicado ou algo do tipo, bllz!?
+                        </p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="row text-center mt-3 mb-2">
+            <div class="col-12">
+                <div class="card bg-success text-white recado">
+                    <div class="card-body">
+                        <!--FORM-->
+                        <div class="text-center bg-success text-white mt-3">
+                            <form>
+        
+                            <div class="form-group mt-2">
+                            <label for="nome">Seu nome:</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome" name="nome">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="escola">Sua escola:</label>
+                                <input type="text" class="form-control" id="escola" placeholder="Sua escola" name="escola">
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="idade">Sua idade:</label>
+                                <input type="number" class="form-control" id="idade" placeholder="Sua idade" name="idade">
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="serie">Sua Série:</label>
+                                <input type="text" class="form-control" id="serie" placeholder="Sua Série" name="serie">
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="localidade">Sua idade:</label>
+                                <input type="text" class="form-control" id="localidade" placeholder="Sua localidade" name="localidade">
+                            </div>
+        
+                            <label for="comentario">Digite a sua opinião:</label>
+                            <textarea class="form-control" rows="5" id="comentario"></textarea>
+
+                            <div class="form-group mt-2">
+                                <label for="sel1">Selecione o tipo de comentário:</label>
+                                <select class="form-control" id="sel1">
+                                  <option value="1">Aulas Remotas</option>
+                                  <option value="2">Aulas Presenciais</option>
+                                  <option value="3">Comentário Anônimo</option>
+                                </select>
+                            </div>
+        
+                            <button type="submit" class="mt-2 btn btn-danger">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+
+    </div>
+</body>
+</html>
